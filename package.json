@@ -6,13 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@nextystudio/eslint-config": "^1.0.0",
+    "@prismicio/client": "^6.7.3",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/next": "^1.0.3",
+    "@prismicio/react": "^2.5.2",
+    "@stitches/react": "^1.2.8",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
     "next": "13.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@prismicio/types": "^0.2.7",
+    "@slicemachine/adapter-next": "^0.1.1",
+    "slice-machine-ui": "^1.0.1"
   }
 }

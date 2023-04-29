@@ -1,0 +1,5 @@
+{
+  "repositoryName": "codeboost-marvel-what-if",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"]
+}
