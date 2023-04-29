@@ -18,7 +18,7 @@ const socialMedia = [
   },
 ]
 
-export function HeroSection({ data }) {
+export function HomeHeroSection({ data }) {
   return (
     <StyledHeroSection>
       <Container css={{ display: 'flex', alignItems: 'flex-start' }}>
